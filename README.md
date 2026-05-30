@@ -8,7 +8,7 @@
 
 A polished, production-quality marketing site **and live interactive analytics dashboard** — built from scratch with vanilla HTML, CSS, and JavaScript. **Zero frameworks, zero build step, zero dependencies.**
 
-[**▶ Live demo**](https://aniarakelyan.github.io/helios-analytics/) · [Features](#-highlights) · [Architecture](#-architecture) · [Run locally](#-run-it-locally)
+[**▶ Live demo**](https://aniarakelyan30-maker.github.io/helios-analytics/) · [Features](#-highlights) · [Architecture](#-architecture) · [Run locally](#-run-it-locally)
 
 </div>
 
@@ -59,7 +59,7 @@ Because it uses ES modules, open it through a tiny static server (not `file://`)
 
 ```bash
 # clone
-git clone https://github.com/aniarakelyan/helios-analytics.git
+git clone https://github.com/aniarakelyan30-maker/helios-analytics.git
 cd helios-analytics
 
 # serve with any static server, e.g.

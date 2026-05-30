@@ -5,7 +5,7 @@
 
 import { reseed, getRevenueSeries, getChannelData, getSegmentData, getKpis, getAccounts } from './data.js';
 import { renderAreaChart, renderBarChart, renderDonutChart, sparklineSVG } from './charts.js';
-import { fmt, signedPct, fmtDate } from './format.js';
+import { fmt, signedPct } from './format.js';
 
 const state = {
   range: 7,

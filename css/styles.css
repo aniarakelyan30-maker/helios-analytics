@@ -113,6 +113,10 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 input, select { font: inherit; color: inherit; }
 ul { list-style: none; padding: 0; }
 
+/* Ensure the [hidden] attribute always wins over component display rules
+   (e.g. .cmdk { display: grid }) so closed-by-default UI stays closed. */
+[hidden] { display: none !important; }
+
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
